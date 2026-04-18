@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recruiting — Y-VENTURES</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="index.html" class="nav-logo">Y-VENTURES</a>
+    <ul class="nav-menu" id="navMenu">
+      <li class="nav-item"><a href="about.html">ABOUT</a>
+        <div class="dropdown">
+          <a href="who-we-are.html">Who we are</a>
+          <a href="greetings.html">Greetings</a>
+          <a href="history.html">History</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="accelerator.html">ACCELERATOR</a>
+        <div class="dropdown">
+          <a href="boost.html">Boost Program</a>
+          <a href="ystartup.html">Y-Startup</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="academia.html" class="active">ACADEMIA</a>
+        <div class="dropdown">
+          <a href="curriculum.html">Curriculum</a>
+          <a href="recruiting.html">Recruiting</a>
+          <a href="faq.html">FAQ</a>
+          <a href="insight.html">Insight</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="people.html">PEOPLE</a>
+        <div class="dropdown">
+          <a href="team.html">Our Team</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="partners.html">Partners</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="page-header">
+    <div class="page-tag">Academia</div>
+    <h1 class="page-title">RECRUITING</h1>
+    <p class="page-desc">연세대학교 최초이자 유일한 VC학회, Y-Ventures Academia입니다.</p>
+    <div style="margin-top: 40px;">
+      <a href="contact.html" class="btn btn-black">APPLY</a>
+    </div>
+  </div>
+
+  <section class="section bordered">
+    <div class="eyebrow">Recruiting</div>
+    <h2 class="section-heading">함께할 멤버를<br>모집합니다</h2>
+    <p class="section-text">
+      Y-Ventures Academia는 매 학기 신규 멤버를 모집합니다. 창업, 투자, 스타트업 생태계에 관심 있는 연세대학교 재학생이라면 누구든 지원할 수 있습니다.
+    </p>
+
+    <div class="card-grid" style="margin-top: 72px;">
+      <div class="card">
+        <div class="card-tag">지원 자격</div>
+        <div class="card-title">Eligibility</div>
+        <p class="card-body">연세대학교 재학생 (학부·대학원 무관). 창업, 투자, 스타트업에 대한 관심과 열정. 학기 중 정기 모임 참여 가능한 분.</p>
+      </div>
+      <div class="card">
+        <div class="card-tag">모집 일정</div>
+        <div class="card-title">Schedule</div>
+        <p class="card-body">매 학기 초(3월/9월) 공식 Instagram 및 에브리타임을 통해 공고를 확인하세요. 서류 - 면접 - 최종 선발 과정으로 진행됩니다.</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 56px;">
+      <a href="contact.html" class="btn btn-black">지원하기 — APPLY</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Y-VENTURES</div>
+        <p>연세대학교 학생 주도<br>스타트업 엑셀러레이터</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-label">Navigate</div>
+        <a href="about.html">About</a>
+        <a href="accelerator.html">Accelerator</a>
+        <a href="academia.html">Academia</a>
+        <a href="people.html">People</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-label">Contact</div>
+        <a href="mailto:accelerator@yventures.ac">accelerator@yventures.ac</a>
+        <a href="mailto:academia@yventures.ac">academia@yventures.ac</a>
+        <div class="footer-col-label" style="margin-top: 28px;">Social</div>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">KakaoTalk</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-label">Location</div>
+        <span>Seoul, South Korea</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">ⓒ 2025 Y-VENTURES. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+    hamburger.addEventListener('click', () => navMenu.classList.toggle('open'));
+  </script>
+</body>
+</html>
